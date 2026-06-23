@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace NavigationApp
 {
     //Скучные и однотипные Константы, но с enum это в 10раз неудобней
-    //        ^
-    //        (я хз, нужна ли тут запятая, поэтому "и")
+    ///       ^
+    ///       (я хз, нужна ли тут запятая, поэтому "и")
     public struct PieceType
     {
         public const byte Pawn = 0;
