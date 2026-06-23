@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="NavigationApp.GamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NavigationApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Canvas x:Name="CanvasBoard">
+            <Rectangle x:Name="a1"/>
+            <Rectangle x:Name="a2"/>
+            <Rectangle x:Name="a3"/>
+            <Rectangle x:Name="a4"/>
+            <Rectangle x:Name="a5"/>
+            <Rectangle x:Name="a6"/>
+            <Rectangle x:Name="a7"/>
+            <Rectangle x:Name="a8"/>
+
+            <Rectangle x:Name="b1"/>
+            <Rectangle x:Name="b2"/>
+            <Rectangle x:Name="b3"/>
+            <Rectangle x:Name="b4"/>
+            <Rectangle x:Name="b5"/>
+            <Rectangle x:Name="b6"/>
+            <Rectangle x:Name="b7"/>
+            <Rectangle x:Name="b8"/>
+
+            <Rectangle x:Name="c1"/>
+            <Rectangle x:Name="c2"/>
+            <Rectangle x:Name="c3"/>
+            <Rectangle x:Name="c4"/>
+            <Rectangle x:Name="c5"/>
+            <Rectangle x:Name="c6"/>
+            <Rectangle x:Name="c7"/>
+            <Rectangle x:Name="c8"/>
+
+            <Rectangle x:Name="d1"/>
+            <Rectangle x:Name="d2"/>
+            <Rectangle x:Name="d3"/>
+            <Rectangle x:Name="d4"/>
+            <Rectangle x:Name="d5"/>
+            <Rectangle x:Name="d6"/>
+            <Rectangle x:Name="d7"/>
+            <Rectangle x:Name="d8"/>
+
+            <Rectangle x:Name="e1"/>
+            <Rectangle x:Name="e2"/>
+            <Rectangle x:Name="e3"/>
+            <Rectangle x:Name="e4"/>
+            <Rectangle x:Name="e5"/>
+            <Rectangle x:Name="e6"/>
+            <Rectangle x:Name="e7"/>
+            <Rectangle x:Name="e8"/>
+
+            <Rectangle x:Name="f1"/>
+            <Rectangle x:Name="f2"/>
+            <Rectangle x:Name="f3"/>
+            <Rectangle x:Name="f4"/>
+            <Rectangle x:Name="f5"/>
+            <Rectangle x:Name="f6"/>
+            <Rectangle x:Name="f7"/>
+            <Rectangle x:Name="f8"/>
+
+            <Rectangle x:Name="g1"/>
+            <Rectangle x:Name="g2"/>
+            <Rectangle x:Name="g3"/>
+            <Rectangle x:Name="g4"/>
+            <Rectangle x:Name="g5"/>
+            <Rectangle x:Name="g6"/>
+            <Rectangle x:Name="g7"/>
+            <Rectangle x:Name="g8"/>
+
+            <Rectangle x:Name="h1"/>
+            <Rectangle x:Name="h2"/>
+            <Rectangle x:Name="h3"/>
+            <Rectangle x:Name="h4"/>
+            <Rectangle x:Name="h5"/>
+            <Rectangle x:Name="h6"/>
+            <Rectangle x:Name="h7"/>
+            <Rectangle x:Name="h8"/>
+        </Canvas>
+    </Grid>
+</Page>

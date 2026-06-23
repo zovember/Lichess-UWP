@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    ЭТОТ ФАЙЛ МАНИФЕСТА ПАКЕТА СОЗДАН ПРОЦЕССОМ СБОРКИ.
+
+    Изменения этого файла будут потеряны при его повторном создании. Чтобы исправить ошибки в этом файле, измените исходный файл .appxmanifest.
+
+ Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="0cc48c49-5edb-4b34-b912-2c352effb266" Publisher="CN=kochu" Version="1.0.19.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="0cc48c49-5edb-4b34-b912-2c352effb266" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>NavigationApp</DisplayName>
+    <PublisherDisplayName>kochu</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.CoreRuntime.1.1" MinVersion="1.1.27004.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="RU-RU" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="NavigationApp.exe" EntryPoint="NavigationApp.App">
+      <uap:VisualElements DisplayName="NavigationApp" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="NavigationApp" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>NavigationApp.exe</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBackgroundImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBindingContentPhotos" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBasicText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastButtonDismiss" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastSelectionBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TilePeekImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastGenericAppLogo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastBindingShoulderTap" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBasicImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveProgressBarValue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastAudio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastContextMenuItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.BadgeGlyphContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveSubgroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastGenericHeroImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.BadgeNumericContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastButtonSnooze" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBindingContentPeople" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastVisual" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBindingContentContact" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastBindingGeneric" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBindingContentIconic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastShoulderTapImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastSelectionBoxItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveProgressBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastGenericAttributionText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastSpriteSheet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastActionsCustom" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastActionsSnoozeAndDismiss" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastArguments" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastPeople" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastContentBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBinding" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastNotificationManagerCompat" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.ToastActivationOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.AdaptiveText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.Notifications.TileBindingContentAdaptive" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.4522 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.35706.147" />
+    <build:Item Name="ProjectGUID" Value="{B2A1B613-D2A4-48FC-87D6-BEFE54FCC081}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Managed" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.35706.147" />
+    <build:Item Name="MakePri.exe" Version="10.0.10586.212 (th2_release_sec.160328-1908)" />
+  </build:Metadata>
+</Package>

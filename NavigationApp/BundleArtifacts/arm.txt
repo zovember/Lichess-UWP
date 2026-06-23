@@ -1,0 +1,2 @@
+MainPackage=D:\Visual Studio 2017\Projects\NavigationApp\NavigationApp\bin\ARM\Debug\NavigationApp_1.0.19.0_ARM_Debug.appx
+SymbolPackage=D:\Visual Studio 2017\Projects\NavigationApp\NavigationApp\Releases\1.0.19.0\NavigationApp_1.0.19.0_Debug_Test\NavigationApp_1.0.19.0_ARM_Debug.appxsym
